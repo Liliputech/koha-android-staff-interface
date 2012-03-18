@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="hello">Hello World, KohaAndroidStaffInterfaceActivity!</string>
     <string name="app_name">Koha Android Staff Interface</string>
-    <string name="submit">Submit</string>
-    <string name="forgiveod">Forgive Overdue Fines</string>
-    <string name="Checkout">Checkout</string>
-    <string name="Checkin"></string>
-    <string name="Checkinw">Checkin</string>
+
 </resources>
