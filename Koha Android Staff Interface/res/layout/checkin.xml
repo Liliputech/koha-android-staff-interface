@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Koha -> Checkin" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/textView2" android:text="Barcode:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:id="@+id/bcfield">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" android:id="@+id/submit"></Button>
+    <TextView android:id="@+id/textView3" android:text="Options:" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/textView4" android:text="Forgive Overdue Fines:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ToggleButton android:id="@+id/forgive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forgiveod"></ToggleButton>
+    <TextView android:id="@+id/textView5" android:text="Dropbox Mode:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ToggleButton android:text="Dropbox Mode" android:id="@+id/dropbox" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+    <TextView android:id="@+id/textView6" android:text="Special Date Checkin:" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+    
+</LinearLayout>
